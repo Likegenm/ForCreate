@@ -855,7 +855,7 @@ local function main()
 			end
 		end
 
-		context:AddRegistered("CUT (Delete)")
+		context:AddRegistered("CUT")
 		context:AddRegistered("COPY")
 		context:AddRegistered("PASTE", emptyClipboard)
 		context:AddRegistered("DUPLICATE")
