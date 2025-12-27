@@ -10113,7 +10113,7 @@ DefaultSettings = (function()
 			TeleportToOffset = Vector3.new(0,0,0),
 			ClickToRename = true,
 			AutoUpdateSearch = true,
-			AutoUpdateMode = 0, -- 0 Default, 1 no tree update, 2 no descendant events, 3 frozen
+			AutoUpdateMode = 0,
 			PartSelectionBox = true,
 			GuiSelectionBox = true,
 			CopyPathUseGetChildren = true
@@ -10126,8 +10126,8 @@ DefaultSettings = (function()
 			ClearOnFocus = false,
 			LoadstringInput = true,
 			NumberRounding = 3,
-			ShowAttributes = false,
-			MaxAttributes = 50,
+			ShowAttributes = true,
+			MaxAttributes = 100,
 			ScaleType = 1 -- 0 Full Name Shown, 1 Equal Halves
 		},
 		Theme = {
@@ -11127,7 +11127,13 @@ Main = (function()
 			intro.Close()
 		end)()
 		
-		-- Init window system, create main menu, show explorer and properties
+[[
+!
+!
+!
+!
+!
+]]
 		Lib.Window.Init()
 		Main.CreateMainGui()
 		Explorer.Window:Show({Align = "right", Pos = 1, Size = 0.5, Silent = true})
