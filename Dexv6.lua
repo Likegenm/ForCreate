@@ -10696,8 +10696,8 @@ Main = (function()
 	Main.CreateIntro = function(initStatus) -- TODO: Must theme and show errors
 		local gui = create({
 			{1,"ScreenGui",{Name="Intro",}},
-			{2,"Frame",{Active=true,BackgroundColor3=Color3.fromHex("#ffa500"),BorderSizePixel=0,Name="Main",Parent={1},Position=UDim2.new(0.5,-175,0.5,-100),Size=UDim2.new(0,350,0,200),}},
-			{3,"Frame",{BackgroundColor3=Color3.fromHex("#ffa500"),BorderSizePixel=0,ClipsDescendants=true,Name="Holder",Parent={2},Size=UDim2.new(1,0,1,0),}},
+			{2,"Frame",{Active=true,BackgroundColor3=Color3.fromHex("#cc1b00"),BorderSizePixel=0,Name="Main",Parent={1},Position=UDim2.new(0.5,-175,0.5,-100),Size=UDim2.new(0,350,0,200),}},
+			{3,"Frame",{BackgroundColor3=Color3.fromHex("#d62515"),BorderSizePixel=0,ClipsDescendants=true,Name="Holder",Parent={2},Size=UDim2.new(1,0,1,0),}},
 			{4,"UIGradient",{Parent={3},Rotation=30,Transparency=NumberSequence.new({NumberSequenceKeypoint.new(0,1,0),NumberSequenceKeypoint.new(1,1,0),}),}},
 			{5,"TextLabel",{BackgroundColor3=Color3.new(1,1,1),BackgroundTransparency=1,Font=4,Name="Title",Parent={3},Position=UDim2.new(0,-190,0,15),Size=UDim2.new(0,100,0,50),Text="Dex v6",TextColor3=Color3.fromHex("#660e00"),TextSize=50,TextTransparency=1,}},
 			{6,"TextLabel",{BackgroundColor3=Color3.new(1,1,1),BackgroundTransparency=1,Font=3,Name="Desc",Parent={3},Position=UDim2.new(0,-230,0,60),Size=UDim2.new(0,180,0,25),Text="UDS",TextColor3=Color3.fromHex("#660e00"),TextSize=18,TextTransparency=1,}},
