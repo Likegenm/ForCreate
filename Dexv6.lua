@@ -11127,13 +11127,8 @@ Main = (function()
 			intro.Close()
 		end)()
 		
-[[
-!
-!
-!
-!
-!
-]]
+--!!!!!!!!!!!!!!!!!!!!
+
 		Lib.Window.Init()
 		Main.CreateMainGui()
 		Explorer.Window:Show({Align = "right", Pos = 1, Size = 0.5, Silent = true})
