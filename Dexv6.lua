@@ -10957,7 +10957,17 @@ Main = (function()
 			end)
 		end
 	end
-	
+
+--[[
+!
+!
+!              openButton "DEX"
+!
+!
+]]
+
+
+
 	Main.CreateMainGui = function()
 		local gui = create({
 			{1,"ScreenGui",{IgnoreGuiInset=true,Name="MainMenu",}},
@@ -11130,7 +11140,7 @@ Main = (function()
 --[[
 !
 !
-!
+!              START
 !
 !
 ]]
